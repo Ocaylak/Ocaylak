@@ -5,7 +5,6 @@ resource "azurerm_virtual_network" "myterraformnetwork" {
   address_space       = ["10.0.0.0/16"]
   tags = var.tags
 }
-
 resource "azurerm_subnet" "myterraformsubnet" {
   name                 = var.subnetname
   resource_group_name = azurerm_resource_group.myterraformgroup.name
