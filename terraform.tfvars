@@ -1,7 +1,7 @@
 location = "West Europe"
 resourcegroupname = "myterraformgroup"
 tags ={
-    environmet = 'test'
+    environment = test
 }
 vnetname = "myterraformvnetname"
 subnetname = "mysubnetname"
